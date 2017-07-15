@@ -18,12 +18,10 @@ body{
     margin: 0;
     background-color: #eeebda;
 }
-<---! no clue--->
 .wrapper {
   display:flex;
-  justify-content: space-between;
 }
-<----!nope---->
+/*nope*/
 
 
 h1, h2, h3{
@@ -36,9 +34,7 @@ img{
     margin: 0;
     display: block;
 }
-.wrapper{
-    width: 1000px auto;
- */
+
 
     /*
         TODO:
@@ -46,25 +42,17 @@ img{
         - Create a flexbox containerer for
         the major page sections
     */
-}
+
 #site-header{
-    /*
-        TODO
-        - Flexbox property here
-    */
+    width: 100%;
 }
 #site-header div{
     text-align: center;
     padding: 60px 0 120px 0;
     font-size: 4em;
     background-image: url('img/header-img.jpg');
-
-    /*
-        TODO:
-        - Add a background image "header-img.jpg"
-        make sure that the path to the image is correct
-    */
-
+    margin: 0;
+    width: 100%;
     background-size: cover;
     background-position: right bottom;
 }
@@ -134,6 +122,10 @@ main{
     background-color: #444;
     box-shadow: -5px 5px 8px rgba( 0, 0, 0, 0.3 );
     width: 50%;
+    margin: 0;
+    display: flex;
+    flex-wrap:wrap;
+    
 
     /*
         TODO:
@@ -146,6 +138,8 @@ aside{
     background-color: #eee;
     box-shadow: 5px 5px 8px rgba( 0, 0, 0, 0.3 );
     width: 20%;
+    margin: 0;
+
     /*
         TODO:
         - Flexbox: Set the starting width of this element (DONE!!!)
@@ -162,6 +156,7 @@ aside img{
     border-radius: 50%;
     margin-bottom: 30px;
     border: 2px solid white;
+
 }
 article{
     background-color: white;
@@ -205,8 +200,9 @@ article footer p{
 #site-footer{
 
     background: #333;
+
+}
     /*
         TODO:
         - Style the site footer
     */
-}
