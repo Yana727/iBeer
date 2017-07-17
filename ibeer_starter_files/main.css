@@ -20,9 +20,8 @@ body{
 }
 .wrapper {
   display:flex;
+  flex-wrap: wrap;
 }
-/*nope*/
-
 
 h1, h2, h3{
     font-family: "Josefin Sans", sans-serif;
@@ -125,7 +124,7 @@ main{
     margin: 0;
     display: flex;
     flex-wrap:wrap;
-    
+
 
     /*
         TODO:
